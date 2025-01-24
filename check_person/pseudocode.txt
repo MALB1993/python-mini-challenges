@@ -1,0 +1,12 @@
+Start
+    Get input from the user (human state: good, bad, or average)
+    
+    If input is "good":
+        Print "You are a good person."
+    Else, if input is "average":
+        Print "You are an average person."
+    Else, if input is "bad":
+        Print "You are a bad person."
+    Else:
+        Print "Please type the correct word (good, bad, or average)."
+End
