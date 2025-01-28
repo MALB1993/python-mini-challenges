@@ -1,0 +1,11 @@
+
+Start 
+    Create a new function named main
+
+    Create a new function to get two numbers and one operator
+
+    Run the main function
+
+    Call the main function and print the result
+
+End
