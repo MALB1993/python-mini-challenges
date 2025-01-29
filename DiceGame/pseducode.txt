@@ -1,0 +1,7 @@
+Start
+    Define function range_between_six_numbers
+        Generate a random number between 1 and 6
+        Display the result to the user
+        Print a new record (if applicable)
+    End function
+End
