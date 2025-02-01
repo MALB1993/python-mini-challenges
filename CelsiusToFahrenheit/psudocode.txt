@@ -1,0 +1,14 @@
+Start
+    unit = get unit from user (Celsius or Fahrenheit)
+
+    if unit is Celsius
+        converted_temp = (temp * 9/5) + 32
+        output_unit = "F°"
+    else if unit is Fahrenheit
+        converted_temp = (temp - 32) * 5/9
+        output_unit = "C°"
+    else
+        print "Invalid unit!"
+
+    print "Converted temperature:", converted_temp, output_unit
+End
