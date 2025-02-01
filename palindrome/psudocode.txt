@@ -1,0 +1,14 @@
+Start
+    
+    Input: Receive the word/sentence.
+    
+    Lowercase: Convert all characters to lowercase for uniformity.
+    
+    Clean Input: Remove spaces and non-alphabetic characters (e.g., punctuation, numbers).
+    
+    Reverse: Create the reversed version of the cleaned word.
+
+    Condition Check:
+        If the reversed word matches the original cleaned word → "It is a Palindrome".
+        If not → "Not a Palindrome".
+End
