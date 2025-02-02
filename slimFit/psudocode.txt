@@ -1,0 +1,28 @@
+Start
+    get height from client (e.g., 1.75 m)  
+    get weight from client (e.g., 80 kg)  
+
+    bmi = body_calculation(height, weight)  
+    print(check_body(bmi))  
+
+    define function body_calculation(height, weight):  
+        pow_height = height ** 2  
+        checked_body = weight / pow_height  
+        return checked_body  
+
+    define function check_body(checked_body):
+        if checked_body > 40:  
+            return "Obesity Class 3"  
+        elif 40 >= checked_body and checked_body > 35:  
+            return "Obesity Class 2"  
+        elif 35 >= checked_body and checked_body > 30:  
+            return "Obesity Class 1"  
+        elif 30 >= checked_body and checked_body > 25:  
+            return "Overweight"  
+        elif 25 >= checked_body and checked_body > 18.5:  
+            return "Normal weight"  
+        elif checked_body <= 18.5:  
+            return "Underweight"  
+        else: 
+            return "Something went wrong!"  
+End
